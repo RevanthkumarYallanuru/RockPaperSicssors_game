@@ -1,0 +1,176 @@
+*
+{
+border: none;    
+margin: 0px;
+padding: 0px;
+}
+body
+{
+    background-color: #000;
+    color: #fff;
+}
+.container
+{
+    background: #000;
+}
+img
+{
+    background: #000;
+    height: 140px;
+    width: 140px;
+    border: #15bf9a 5px solid;
+    border-radius: 50%;
+}
+img:hover
+{
+    border: #33ed09 5px solid; 
+}
+.card
+{
+    width: 1000px;
+    height: 500px;
+    margin: 80px auto 30px ;
+    background: #353434d8;
+}
+.titleboard
+{
+    position: relative;
+    top: 20px;
+    height: 60px;
+    width: 500px;
+    bottom: 10px;
+    border-radius: 40px;
+    margin: 40px auto 20px;
+    background: #3ced07c4;
+    
+    text-align: center;
+    padding: 10px;
+}
+#results
+{
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.note
+{
+    text-align: center;
+    position: relative;
+    top: 16px;
+    
+
+    
+}
+.note label
+{
+    font-weight: 400;
+    font-size: 22px;
+}
+.elements
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.rock 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.paper 
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.scissors
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.elements span
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.competeros{
+    position: relative;
+    top: 20px;
+    margin: 10px auto 5px;
+    height: 80px;
+    width: 90%;
+    padding: 8px;
+    border-radius: 30px;
+    background: #3ced07c4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.you
+{
+    background: #000;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+.you::before
+{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-image: url('./you.jpeg');
+    border: #dfdf13 5px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    position: absolute;
+    left: -20px;
+    top: -8pxs;
+}
+.you h2
+{
+    margin-top: 17px;
+}
+.computer h2
+{
+    margin-top: 17px;
+}
+.computer
+{
+    background: #000;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+.computer::before
+{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-image: url('./computer.jpeg');
+    border: #dfdf13 5px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    position: absolute;
+    left: -20px;
+    top: -8pxs;
+}

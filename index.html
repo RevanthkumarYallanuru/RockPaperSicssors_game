@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/image-search-engine/port3.png" type="image/x-icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS game</title>
+    <link rel="stylesheet" href="./images/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="titleboard">
+                <h2 id="results"> Start</h2>
+            </div>
+            <div class="note">
+                <label for="note">Choose your move Here</label>
+            </div>
+            <div class="elements">
+                <div class="rock" onclick="play('Rock')">
+                    <img src="images/rock.jpeg" alt="rock">
+                    <span>Rock</span>
+
+                </div>
+                <div class="paper" onclick="play('Paper')">
+                    <img src="images/paper.jpeg" alt="paper">
+                    <span>Paper</span>
+
+                </div>
+                <div class="scissors" onclick="play('Scissor')">
+                    <img src="images/scissors.jpeg" alt="scissors">
+                    <span>Scissor</span>
+
+
+                </div>
+            </div>
+            <div class="competeros">
+                <div class="you">
+                    <h2 id="yu">YOU</h2>
+                </div>
+                <div class="vs">
+                    <h2>V/S</h2>
+                </div>
+                <div class="computer">
+                    <h2 id="cmp">Computer</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
